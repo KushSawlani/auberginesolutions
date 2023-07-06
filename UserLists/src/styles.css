@@ -1,0 +1,48 @@
+.card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.userImage {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.details {
+  flex: 1;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.email {
+  color: #777;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
